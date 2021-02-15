@@ -1,0 +1,16 @@
+Create new user:
+Create Role name;
+Drop Role name;
+
+example:
+create role ronstudio LOGIN;
+alter role ronstudio with password 'xxxxx';
+alter role ronstudio with CREATEDB CREATEROLE REPLICATION
+
+List of users:
+Select rolname FROM pg_roles;
+\du
+
+
+
+Copy From / Copy To
