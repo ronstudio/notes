@@ -6,6 +6,8 @@ example:
 create role ronstudio LOGIN;
 alter role ronstudio with password 'xxxxx';
 alter role ronstudio with CREATEDB CREATEROLE REPLICATION
+create database ronstudio owner ronstudio;
+
 
 List of users:
 Select rolname FROM pg_roles;
